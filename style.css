@@ -1,0 +1,156 @@
+@media only screen and(max-width: 375){
+    /* for mobile phones   */
+    .main{
+
+        width: 100%;
+        
+    }
+
+    .silver2{
+        width: 100%;
+    }
+
+    .black{
+        width: 100%;
+    }
+}
+
+
+@media only screen and(max-width: 500px){
+    /* for tablets   */
+    .main{
+
+        width: 100%;
+        
+    }
+
+    .silver2{
+        width: 100%;
+    }
+
+    .black{
+        width: 100%;
+    }
+}
+
+
+@media only screen and(min-width: 1440){
+    /* responsive for laptops  */
+    .main{
+
+        width: 70%;
+        
+    }
+
+    .silver2{
+        width: 100%;
+    }
+
+    .black{
+        width: 100%;
+    }
+}
+
+
+.main{
+    display:grid;
+    grid-template-columns: 1fr;
+   
+    border: 5px solid silver;
+    margin: auto;
+    width: 50%;
+    
+    background-color: silver;
+    
+    text-align: center;
+}
+
+.black{
+   border: 2px solid black;
+   margin: auto;
+   width: 90%;
+   
+   height: 70vh;
+   background-color: black;
+}
+
+.silver2{
+    border: 2px solid solid;
+    margin: auto;
+   width: 90%;
+   
+   height: 50vh;
+   position: relative;
+   top: 50px;
+   
+   background-color: silver;
+}
+
+.time-container{
+    width: 50%;
+    text-align: center;
+    border: 2px solid solid;
+    height: 150px;
+    position: relative;
+    left: 160px;
+    top: 20px;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+
+
+.date-container{
+    display: grid;
+    width: 50%;
+    text-align: center;
+    border: 2px solid silver;
+    height: 50px;
+    position: relative;
+    top: 30px;
+    font-size: 1rem;
+    text-align: center;
+    font-weight: 800px;
+   
+}
+
+
+#seconds{
+    font-size: 2rem;
+}
+
+
+.date-heading{
+  font-size: 1.5rem;
+ width: 380px;
+ justify-content: space-between;
+ border: 2px solid silver;
+}
+
+
+.date-ecetra{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.s1{
+    position: relative;
+    right: 45px;
+}
+
+.s2{
+    position: relative;
+    right: 35px;
+}
+
+.s4{
+    position: relative;
+    left: 80px;
+    
+}
+
+#day{
+    position: relative;
+    left: 35px;
+    border-left: 3px solid black;
+    border-bottom: 3px solid black;
+}
